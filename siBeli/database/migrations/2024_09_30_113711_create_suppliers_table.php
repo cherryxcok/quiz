@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('suppliers', function (Blueprint $table) {
             $table->id();
-            $table->string('kd_supplier',length: 20) ->primary();
-            $table->string('nama_supplier',length: 100) ->unique();
-            $table->string('alamat',length: 225);
+            $table->string('kd_supplier');
+            $table->string('nama_supplier');
+            $table->string('alamat');
             $table->timestamps();
         });
     }

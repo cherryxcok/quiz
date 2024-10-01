@@ -15,7 +15,7 @@ class d_masukSeeder extends Seeder
         for ($i = 1; $i <= 10; $i++){
             DB::table('d_masuks')->insert([
                 'id_masuk' => 'Ready'
-                'kd_masuk' => 24,
+                'kd_masuk' => '24'
                 'kd_barang beli' => '1000000'
                 'harga_jual' => '1200000'
                 'jumlah' => 'set'
